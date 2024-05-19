@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA STYLE - Professional Barber</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            margin: 20px auto;
+            color: #fff;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+        .social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+        .contact-info {
+            margin: 20px 0;
+            font-size: 18px;
+        }
+        .intro-text {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .barber-img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .phone-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+        .phone-icon:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            .overlay {
+                margin: 10px;
+                padding: 15px;
+            }
+            .intro-text {
+                font-size: 20px;
+            }
+            .social-links a {
+                font-size: 18px;
+                margin: 0 8px;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+            }
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+            .phone-icon {
+                bottom: 10px;
+                right: 10px;
+                padding: 12px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>MA STYLE</h1>
+        <p class="intro-text">Professional Barber - Elevate Your Style</p>
+        <img src="profile.png" alt="MA STYLE" class="profile-img">
+        <div class="contact-info">
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@mastyle89?_t=8mUB342mEQi&_r=1" target="_blank"><img src="icons/tiktok.svg" alt="TikTok"></a>
+            <a href="https://www.instagram.com/adl_berber?igsh=YXl6c3l5am9hOHU3&utm_source=qr" target="_blank"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.snapchat.com/add/adlabdula5?share_id=vnBRhbV0THqgCKwk6-4PLQ&locale=ar_US@numbers=latn" target="_blank"><img src="icons/snapchat.svg" alt="Snapchat"></a>
+            <a href="https://youtube.com/@mastyle-vd4nl?si=-o-bV_1xjq3EYubT" target="_blank"><img src="icons/youtube.svg" alt="YouTube"></a>
+        </div>
+        <img src="barber-image1.jpg" alt="Barber at Work" class="barber-img">
+        <img src="barber-image2.jpg" alt="Haircut Style" class="barber-img">
+    </div>
+    <a href="tel:+1234567890" class="phone-icon">📞</a>
+</body>
+</html>
